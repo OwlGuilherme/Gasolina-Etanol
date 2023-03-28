@@ -5,4 +5,6 @@ void run();
 
 void showMenu();
 
+bool calcBest();
+
 #endif // FUNCS_HPP_INCLUDED
