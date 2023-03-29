@@ -1,32 +1,28 @@
 #include "funcs.hpp"
 #include <iostream>
 
-extern "C" double calcPorcen(double, double);
+extern "C" double calcPorcen(double y, double x);
 
 double gas = 0;
 double ethan = 0;
 double result;
 
 void run() {
-  while(true){  
+  while(true){ 
     showMenu();
-    if( calcBest() ){
-      std::cout << "É melhor utilizar ETANOL" << '\n';
-      std::cout << "O etanol representa " << result << "% do valor da gasolina" << '\n'; 
-    } else {
-      std::cout << "É melhor utilizar GASOLINA" << '\n';
-      std::cout << "O etanol representa " << result << "% do valor da gasolina" << '\n';
-    }
+    calcBest();
     break;
   }
 }
 
-bool calcBest() {
+void calcBest() {
   result = calcPorcen(gas, ethan);
-  if( result >= 73 ){
-    return true;
+  if( result <= 0.73 ){
+    std::cout << "É melhor utilizar ETANOL" << '\n';
+    std::cout << "O etanol representa " << result << "% do valor da gasolina" << '\n';
   } else {
-    return false;
+    std::cout << "É melhor utilizar GASOLINA" << '\n';
+    std::cout << " O etanol representa " << result << "% do valor da gasolina" << '\n';
   }
 }
 
@@ -41,5 +37,6 @@ void showMenu() {
   std::cout << "> ";
   std::cin >> gas;
   std::cout << "Digite o valor do etanol: R$ " << '\n';
+  std::cout << "> ";
   std::cin >> ethan;
 }
