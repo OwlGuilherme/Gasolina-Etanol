@@ -37,6 +37,7 @@ Para contribuir com o projeto, siga estas etapas:
 4. Envie para o branch original: _git push origin <nome_do_projeto> / <local>_
 5. Crie a solicitação de pull.
 
-+ Caso queira me mandar uma mensagem, fique à vontade: 
++ Caso queira me mandar uma mensagem, fique à vontade:
+
 [E-mail](guilhermesantos.adv@protonmail.com)
 [Twitter](https://twitter.com/Guilher_me99)
