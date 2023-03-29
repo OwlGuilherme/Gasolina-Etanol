@@ -1,7 +1,6 @@
 # Gasolina ou Etanol
 
 > Status: Em desenvolvimento. ⚠️
-> Ainda não é funcional
 
 Simples calculadora para decidir se compensa abastecer com gasolina ou etanol.
 Esse script, escrito em C++, utiliza a linguagem Assembly para executar os cálculos.
@@ -11,6 +10,7 @@ Esse script, escrito em C++, utiliza a linguagem Assembly para executar os cálc
 Antes de começar, verifique os seguintes requisitos:
 
 + [Compilador GCC](https://gcc.gnu.org/install/)
++ [Compilador NASM](https://www.nasm.us/)
 + GNU Make
 + [Git](https://git-scm.com/)
 
@@ -38,8 +38,5 @@ Para contribuir com o projeto, siga estas etapas:
 5. Crie a solicitação de pull.
 
 + Caso queira me mandar uma mensagem, fique à vontade: 
-
-![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FGuilher_me99)
-
-![menuImg](imgs/gif.gif)
-
+[E-mail](guilhermesantos.adv@protonmail.com)
+[Twitter](https://twitter.com/Guilher_me99)
