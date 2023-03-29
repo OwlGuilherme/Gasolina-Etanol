@@ -25,8 +25,11 @@ CC_FLAGS=-c         \
 #
 all: $(PROJ_NAME)
 
-$(PROJ_NAME): $(OBJ)
+$(PROJ_NAME): $(OBJ) calcs.o
 	$(CC) -o $@ $^
+
+calcs.o: calcs.asm
+	nasm -f elf64 $<
 
 %.o: %.cpp %.hpp
 	$(CC) -o $@ $< $(CC_FLAGS)
