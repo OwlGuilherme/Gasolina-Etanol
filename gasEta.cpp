@@ -1,9 +1,11 @@
 #include "funcs.hpp"
 #include <iostream>
 
+extern "C" double calcPorcen(double, double);
+
 double gas = 0;
 double ethan = 0;
-double resultado;
+double result;
 
 void run() {
   while(true){  
@@ -22,9 +24,9 @@ void run() {
 bool calcBest() {
   result = calcPorcen(gas, ethan);
   if( result >= 73 ){
-    return true
+    return true;
   } else {
-    return false
+    return false;
   }
 }
 
