@@ -1,4 +1,4 @@
-# Gasolina ou Etanol
+# Gasolina || Etanol
 
 > Status: Em desenvolvimento. ⚠️
 
@@ -27,7 +27,7 @@ Antes de começar, verifique os seguintes requisitos:
 Após isso, a aplicação será executada.
 Na aplicação rodando, basta digitar o valor, nesse formato _0.00_, da gasolina e do etanol.
 
-## 📮 Contribuindo para o MakeMakefile
+## 📮 Contribuindo para o Gasolina||Etanol
 
 Para contribuir com o projeto, siga estas etapas:
 
