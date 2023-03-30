@@ -11,7 +11,15 @@ void run() {
   while(true){ 
     showMenu();
     calcBest();
-    break;
+    std::cout << "\nDeseja consultar novamente? [1 para continuar] ";
+    int confirm;
+    std::cin >> confirm;
+    if( confirm == 1 ){
+      system("clear");
+      continue;
+    } else {
+      break;
+    }
   }
 }
 
